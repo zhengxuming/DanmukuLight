@@ -21,7 +21,7 @@ public class DanMuChannel {
             return;
         }
 
-        danMuView.setSpeed(speed);
+        danMuView.setSpeed(danMuView.getSpeed());
         if (danMuView.getDisplayType() == DanMuModel.RIGHT_TO_LEFT) {
             int mDeltaX = 0;
             if (r2lReferenceView != null) {
